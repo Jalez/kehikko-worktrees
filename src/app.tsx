@@ -87,7 +87,7 @@ export function Screen({ host, worktrees, by, onPress = () => {}, now: given, bo
   }, [drawn, ready])
 
   return (
-    <div className="flex h-screen min-w-0 flex-col text-sm">
+    <div data-kehikot-page className="flex h-screen min-w-0 flex-col text-sm">
       {host.where === 'unhosted' ? (
         <header className="flex min-h-9 shrink-0 items-center gap-2 border-b px-2">
           <span className="text-xs font-medium">Worktrees</span>
