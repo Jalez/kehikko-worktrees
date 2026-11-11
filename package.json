@@ -1,6 +1,6 @@
 {
   "name": "kehikko-worktrees",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "description": "Worktrees, a module a Kehikot host frames: every git worktree of your projects, what each takes on the disk and where its pull request stands, cleaned up once its work is merged, and agents kept working in worktrees.",
@@ -20,7 +20,7 @@
     "@radix-ui/react-slot": "^1.3.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "kehikot-module-protocol": "git+https://github.com/Jalez/kehikko-protocol.git#v2.78.0",
+    "kehikot-module-protocol": "git+https://github.com/Jalez/kehikko-protocol.git#v2.82.0",
     "lucide-react": "^1.33.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
